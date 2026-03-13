@@ -1,0 +1,37 @@
+/*
+Theme Name: Brewcoffee Shop
+Theme URI: https://anantsites.com/brewcoffee-shop/
+Template: eshop-elementor
+Author: Anantsites
+Author URI: https://anantsites.com
+Description: Elevate your online store with Brewcoffee Shop, a sleek and highly customizable WordPress theme designed specifically for eCommerce businesses. Built with seamless integration with the Elementor page builder, this theme offers a user-friendly drag-and-drop interface, allowing you to create stunning, responsive layouts without any coding knowledge. Brewcoffee Shop is packed with advanced features like product quick view, AJAX-powered search, and smooth shopping cart integration, ensuring a top-notch shopping experience for your customers. Perfect for any online retailer, this theme is optimized for speed, SEO, and mobile performance, helping you boost your sales and online presence effortlessly.
+Tags: one-column,two-columns,right-sidebar,flexible-header,custom-background,custom-header,custom-menu,editor-style,featured-images,footer-widgets,theme-options,threaded-comments,rtl-language-support,translation-ready,full-width-template,custom-logo,blog,news
+Version: 0.3
+Tested up to: 6.9
+Requires at least: 6.7
+Requires PHP: 7.4
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl.htmlhtml
+Text Domain: brewcoffee-shop
+*/
+.main_nav .esh-el-menu ul{
+    flex-wrap: wrap;
+}
+.main_nav .esh-el-menu ul li a {
+    display: block;
+    width: 100%;
+    font-weight: 500;
+    color: #111;
+}
+.esh-el-title{
+    word-break: break-all;
+}
+.esh-el-title + p{
+    word-break: break-all;
+}
+.esh-el-blog-post{
+    overflow: hidden;
+}
+.esh-el-blog-post {
+    margin-bottom: 40px;
+}
